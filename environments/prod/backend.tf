@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "simplifymycloud-dev-tfstate"
+    bucket = "simplifymycloud-dev-terraform-state-cloud-build-poc"
     prefix = "env/prod"
   }
 }
